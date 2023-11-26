@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Rars" ext="s" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03&quot; 03&apos; 04&quot; 04&apos;</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">, ( )</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">add&#x000D;&#x000A;addi&#x000D;&#x000A;and&#x000D;&#x000A;andi&#x000D;&#x000A;auipc&#x000D;&#x000A;beq&#x000D;&#x000A;bge&#x000D;&#x000A;bgeu&#x000D;&#x000A;blt&#x000D;&#x000A;bltu&#x000D;&#x000A;bne&#x000D;&#x000A;csrrc&#x000D;&#x000A;csrrci&#x000D;&#x000A;csrrs&#x000D;&#x000A;csrrsi&#x000D;&#x000A;csrrw&#x000D;&#x000A;csrrwi&#x000D;&#x000A;div&#x000D;&#x000A;divu&#x000D;&#x000A;ebreak &#x000D;&#x000A;ecall&#x000D;&#x000A;fadd.s&#x000D;&#x000A;fclass.s&#x000D;&#x000A;fcvt.s.w&#x000D;&#x000A;fcvt.s.wu&#x000D;&#x000A;fcvt.w.s&#x000D;&#x000A;fcvt.wu.s&#x000D;&#x000A;fdiv.s&#x000D;&#x000A;fence&#x000D;&#x000A;fence.i&#x000D;&#x000A;feq.s&#x000D;&#x000A;fle.s&#x000D;&#x000A;flt.s&#x000D;&#x000A;flw&#x000D;&#x000A;fmadd.s&#x000D;&#x000A;fmax.s&#x000D;&#x000A;fmin.s&#x000D;&#x000A;fmsub.s&#x000D;&#x000A;fmul.s&#x000D;&#x000A;fmv.s.x&#x000D;&#x000A;fmv.x.s&#x000D;&#x000A;fnmadd.s&#x000D;&#x000A;fnmsub.s&#x000D;&#x000A;fsgnj.s&#x000D;&#x000A;fsgnjn.s&#x000D;&#x000A;fsgnjx.s&#x000D;&#x000A;fsqrt.s&#x000D;&#x000A;fsub.s&#x000D;&#x000A;fsw&#x000D;&#x000A;jal&#x000D;&#x000A;jalr&#x000D;&#x000A;lb&#x000D;&#x000A;lbu&#x000D;&#x000A;lh&#x000D;&#x000A;lhu&#x000D;&#x000A;lui&#x000D;&#x000A;lw&#x000D;&#x000A;mul&#x000D;&#x000A;mulh&#x000D;&#x000A;mulhsu&#x000D;&#x000A;mulhu&#x000D;&#x000A;nop&#x000D;&#x000A;or&#x000D;&#x000A;ori&#x000D;&#x000A;rem&#x000D;&#x000A;remu&#x000D;&#x000A;sb&#x000D;&#x000A;sh&#x000D;&#x000A;sll&#x000D;&#x000A;slli&#x000D;&#x000A;slt&#x000D;&#x000A;slti&#x000D;&#x000A;sltiu&#x000D;&#x000A;sltu&#x000D;&#x000A;sra&#x000D;&#x000A;srai&#x000D;&#x000A;srl&#x000D;&#x000A;srli&#x000D;&#x000A;sub&#x000D;&#x000A;sw&#x000D;&#x000A;uret&#x000D;&#x000A;wfi&#x000D;&#x000A;xor&#x000D;&#x000A;xori&#x000D;&#x000A;b &#x000D;&#x000A;beqz&#x000D;&#x000A;bgez&#x000D;&#x000A;bgt&#x000D;&#x000A;bgtu&#x000D;&#x000A;bgtz&#x000D;&#x000A;ble&#x000D;&#x000A;bleu&#x000D;&#x000A;blez&#x000D;&#x000A;bltz&#x000D;&#x000A;bnez&#x000D;&#x000A;call&#x000D;&#x000A;csrc&#x000D;&#x000A;csrci&#x000D;&#x000A;csrr&#x000D;&#x000A;csrs&#x000D;&#x000A;csrsi&#x000D;&#x000A;csrw&#x000D;&#x000A;csrwi&#x000D;&#x000A;fabs.s&#x000D;&#x000A;fmv.s&#x000D;&#x000A;fneg.s&#x000D;&#x000A;frcsr&#x000D;&#x000A;frflags&#x000D;&#x000A;frrm&#x000D;&#x000A;fscsr&#x000D;&#x000A;fscsr&#x000D;&#x000A;fsflags&#x000D;&#x000A;fsflags&#x000D;&#x000A;fsflagsi&#x000D;&#x000A;fsflagsi&#x000D;&#x000A;fsrm&#x000D;&#x000A;fsrmi&#x000D;&#x000A;j &#x000D;&#x000A;jr&#x000D;&#x000A;la&#x000D;&#x000A;li&#x000D;&#x000A;mv&#x000D;&#x000A;neg&#x000D;&#x000A;not&#x000D;&#x000A;ret&#x000D;&#x000A;seqz&#x000D;&#x000A;sgt&#x000D;&#x000A;sgtu&#x000D;&#x000A;sgtz&#x000D;&#x000A;sltz&#x000D;&#x000A;snez&#x000D;&#x000A;tail&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords2">.align &#x000D;&#x000A;.ascii &#x000D;&#x000A;.asciz &#x000D;&#x000A;.byte &#x000D;&#x000A;.data &#x000D;&#x000A;.double &#x000D;&#x000A;.end_macro &#x000D;&#x000A;.eqv &#x000D;&#x000A;.extern &#x000D;&#x000A;.float &#x000D;&#x000A;.globl &#x000D;&#x000A;.half &#x000D;&#x000A;.include &#x000D;&#x000A;.macro &#x000D;&#x000A;.space &#x000D;&#x000A;.string &#x000D;&#x000A;.text &#x000D;&#x000A;.word&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">zero&#x000D;&#x000A;ra&#x000D;&#x000A;sp&#x000D;&#x000A;gp&#x000D;&#x000A;tp&#x000D;&#x000A;t0&#x000D;&#x000A;t1&#x000D;&#x000A;t2&#x000D;&#x000A;t3&#x000D;&#x000A;t4&#x000D;&#x000A;t5&#x000D;&#x000A;t6&#x000D;&#x000A;s0&#x000D;&#x000A;s1&#x000D;&#x000A;s2&#x000D;&#x000A;s3&#x000D;&#x000A;s4&#x000D;&#x000A;s5&#x000D;&#x000A;s6&#x000D;&#x000A;s7&#x000D;&#x000A;s8&#x000D;&#x000A;s9&#x000D;&#x000A;s10&#x000D;&#x000A;s11&#x000D;&#x000A;a0&#x000D;&#x000A;a1&#x000D;&#x000A;a2&#x000D;&#x000A;a3&#x000D;&#x000A;a4&#x000D;&#x000A;a5&#x000D;&#x000A;a6&#x000D;&#x000A;a7&#x000D;&#x000A;x0&#x000D;&#x000A;x1&#x000D;&#x000A;x2&#x000D;&#x000A;x3&#x000D;&#x000A;x4&#x000D;&#x000A;x5&#x000D;&#x000A;x6&#x000D;&#x000A;x7&#x000D;&#x000A;x8&#x000D;&#x000A;x9&#x000D;&#x000A;x10&#x000D;&#x000A;x11&#x000D;&#x000A;x12&#x000D;&#x000A;x13&#x000D;&#x000A;x14&#x000D;&#x000A;x15&#x000D;&#x000A;x16&#x000D;&#x000A;x17&#x000D;&#x000A;x18&#x000D;&#x000A;x19&#x000D;&#x000A;x20&#x000D;&#x000A;x21&#x000D;&#x000A;x22&#x000D;&#x000A;x23&#x000D;&#x000A;x24&#x000D;&#x000A;x25&#x000D;&#x000A;x26&#x000D;&#x000A;x27&#x000D;&#x000A;x28&#x000D;&#x000A;x29&#x000D;&#x000A;x30&#x000D;&#x000A;x31&#x000D;&#x000A;f0&#x000D;&#x000A;f1&#x000D;&#x000A;f2&#x000D;&#x000A;f3&#x000D;&#x000A;f4&#x000D;&#x000A;f5&#x000D;&#x000A;f6&#x000D;&#x000A;f7&#x000D;&#x000A;f8&#x000D;&#x000A;f9&#x000D;&#x000A;f10&#x000D;&#x000A;f11&#x000D;&#x000A;f12&#x000D;&#x000A;f13&#x000D;&#x000A;f14&#x000D;&#x000A;f15&#x000D;&#x000A;f16&#x000D;&#x000A;f17&#x000D;&#x000A;f18&#x000D;&#x000A;f19&#x000D;&#x000A;f20&#x000D;&#x000A;f21&#x000D;&#x000A;f22&#x000D;&#x000A;f23&#x000D;&#x000A;f24&#x000D;&#x000A;f25&#x000D;&#x000A;f26&#x000D;&#x000A;f27&#x000D;&#x000A;f28&#x000D;&#x000A;f29&#x000D;&#x000A;f30&#x000D;&#x000A;f31&#x000D;&#x000A;ft0&#x000D;&#x000A;ft1&#x000D;&#x000A;ft2&#x000D;&#x000A;ft3&#x000D;&#x000A;ft4&#x000D;&#x000A;ft5&#x000D;&#x000A;ft6&#x000D;&#x000A;ft7&#x000D;&#x000A;ft8&#x000D;&#x000A;ft9&#x000D;&#x000A;ft10&#x000D;&#x000A;ft11&#x000D;&#x000A;fa0&#x000D;&#x000A;fa1&#x000D;&#x000A;fa2&#x000D;&#x000A;fa3&#x000D;&#x000A;fa4&#x000D;&#x000A;fa5&#x000D;&#x000A;fa6&#x000D;&#x000A;fa7&#x000D;&#x000A;fs0&#x000D;&#x000A;fs1&#x000D;&#x000A;fs2&#x000D;&#x000A;fs3&#x000D;&#x000A;fs4&#x000D;&#x000A;fs5&#x000D;&#x000A;fs6&#x000D;&#x000A;fs7&#x000D;&#x000A;fs8&#x000D;&#x000A;fs9&#x000D;&#x000A;fs10&#x000D;&#x000A;fs11&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords4">%</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="00C400" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00B300" bgColor="FFFFFF" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="808000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

@@ -1,0 +1,16 @@
+
+State Machine - |TopDE|ADC_Interface:ADCI0|ADC_Controller:ADC0|ADC_Controller_adc_mega_0:adc_mega_0|altera_up_avalon_adv_adc:ADC_CTRL|currState
+Name currState.pauseStateNoAddrIncr currState.initCtrlRegState currState.pauseState currState.doneState currState.transState currState.waitState currState.resetState 
+currState.resetState 0 0 0 0 0 0 0 
+currState.waitState 0 0 0 0 0 1 1 
+currState.transState 0 0 0 0 1 0 1 
+currState.doneState 0 0 0 1 0 0 1 
+currState.pauseState 0 0 1 0 0 0 1 
+currState.initCtrlRegState 0 1 0 0 0 0 1 
+currState.pauseStateNoAddrIncr 1 0 0 0 0 0 1 
+
+State Machine - |TopDE|AudioCODEC_Interface:Audio0|I2C_AV_Config:u3|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 

@@ -1,0 +1,23 @@
+module Datapath (
+	iClkCPU,
+	iClkMem,
+	iRST,
+	initialPC,
+	iregin,
+	oInstView,
+	oregout,
+	oPCView,
+	);
+	
+	input wire iClkCPU, iClkMem;
+	input wire iRST;
+	input [31:0] initialPC;
+	input [4:0] iregin;
+	
+	output [31:0] oInstView;
+	output [31:0] oPCView;
+	output [31:0] oregout;
+	
+	
+	
+endmodule
